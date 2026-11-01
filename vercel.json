@@ -1,0 +1,14 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/downloads/checklist.pdf",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+    },
+    {
+      "source": "/thanks",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }]
+    }
+  ]
+}
