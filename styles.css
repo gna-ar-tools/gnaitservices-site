@@ -120,3 +120,19 @@ input:focus,select:focus,textarea:focus{outline:2px solid var(--sky);outline-off
 .doc h2{font-size:1.35rem;margin-top:34px}
 .doc p,.doc li{color:#333d4b}
 .doc .meta{color:var(--muted)}
+/* upsell path */
+.path-note{font-weight:700;color:var(--navy);margin:28px 0 0}
+.services.path{grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:26px}
+.badge-soft{background:#e9f0fb;color:var(--navy)}
+.more-h{margin:48px 0 0;font-size:1.25rem}
+.draft{background:#fff4c2;color:#6b4e00;font-weight:700;border-radius:4px;padding:0 4px}
+.badge .draft{background:none;color:inherit;padding:0}
+.next-steps{padding:8px 0 72px}
+.next-steps h2{margin-top:0}
+.next-steps .services.path{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.path-foot{color:var(--muted);margin:18px 0 0}
+.doc .next-steps .wrap{max-width:1120px}
+/* uniform cards: equal height, buttons aligned */
+.services{align-items:stretch}
+.svc .actions{justify-content:flex-start;min-height:104px}
+.svc .badge-soft{position:static;align-self:flex-start;margin:-6px 0 0;white-space:normal}
