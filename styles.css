@@ -152,6 +152,8 @@ input:focus,select:focus,textarea:focus{outline:2px solid var(--sky);outline-off
 .inc h3,.ben h3{margin-bottom:6px}
 .inc p,.ben p{margin:0;color:var(--muted)}
 .inc p + p{margin-top:10px}
+.inc ul{margin:10px 0 0;padding-left:1.15em;color:var(--muted)}
+.inc li{margin:0}
 .inc.featured{border:2px solid var(--blue);box-shadow:0 8px 24px rgba(15,42,92,.08)}
 .steps{list-style:none;padding:0;margin:28px 0 0;display:grid;gap:16px;counter-reset:s;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
 .steps li{counter-increment:s;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px}
