@@ -1,6 +1,18 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/security-check",
+      "destination": "/security-review",
+      "permanent": true
+    },
+    {
+      "source": "/security-check/",
+      "destination": "/security-review",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
