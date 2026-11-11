@@ -159,3 +159,18 @@ input:focus,select:focus,textarea:focus{outline:2px solid var(--sky);outline-off
 .steps p{margin:0;color:var(--muted)}
 .band p{color:#e8eefb;margin:8px auto 0;max-width:640px}
 .sr-next{padding-top:8px}
+
+/* bank change checklist */
+.bcc-checks{list-style:none;padding:0;margin:8px 0 0;counter-reset:bcc}
+.bcc-checks li{counter-increment:bcc;position:relative;margin:0 0 12px;padding:16px 18px 16px 64px;background:#fff;border:1px solid var(--line);border-radius:var(--r);color:var(--ink)}
+.bcc-checks li::before{content:counter(bcc);position:absolute;left:16px;top:16px;width:32px;height:32px;border-radius:50%;background:var(--blue);color:#fff;font-weight:700;display:grid;place-items:center}
+.bcc-checks strong{color:var(--navy)}
+.bcc-mail{font-family:ui-monospace,"Cascadia Mono","Segoe UI Mono",Menlo,Consolas,monospace;font-size:.95em}
+.bcc-stop{margin:22px 0 0;padding:16px 18px;background:var(--warn);border:1px solid #f0d7b0;border-radius:var(--r);font-weight:700;color:var(--navy);font-size:1.12rem}
+.bcc-note{margin:28px 0 0;color:var(--muted);font-size:.95rem}
+.section.alt .bcc-note{margin-bottom:0}
+@media(max-width:600px){
+  .bcc-checks li{padding:14px 14px 14px 56px}
+  .hero .narrow .cta-row,.section .narrow .cta-row{align-items:stretch}
+  .hero .narrow .cta-row .btn,.section .narrow .cta-row .btn{width:100%}
+}
