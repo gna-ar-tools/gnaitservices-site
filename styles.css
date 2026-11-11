@@ -174,3 +174,14 @@ input:focus,select:focus,textarea:focus{outline:2px solid var(--sky);outline-off
   .hero .narrow .cta-row,.section .narrow .cta-row{align-items:stretch}
   .hero .narrow .cta-row .btn,.section .narrow .cta-row .btn{width:100%}
 }
+/* post-payment intake */
+.draft{background:#fff4c2;color:#6b4e00;font-weight:700;border-radius:4px;padding:0 4px}
+.intake-warn{background:var(--warn);border:1px solid #f0d7b0;border-radius:10px;padding:14px 16px;margin:0 0 18px;color:var(--ink)}
+.intake-form .formcard{margin-top:22px}
+.intake-success{display:none}
+html.intake-sent .intake-form{display:none}
+html.intake-sent .intake-success{display:block}
+.intake-success h1{font-size:clamp(1.35rem,3vw,1.85rem)}
+.intake-form .follow{margin:12px 0 0}
+.intake-form .formcard textarea{min-height:7.5rem;resize:vertical}
+.intake-form .formcard .btn{width:100%}
